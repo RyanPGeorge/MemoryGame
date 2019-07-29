@@ -43,8 +43,12 @@ cardsInPlay.push(cards[cardsId].rank);
 console.log(cardImage);
 console.log(suit);
 };
-flipCard(0);
-flipCard(2);
+
+function createBoard() {
+    for (var i = 0; i < cards.length; i++) {
+        var cardElement = document.createElement('img');
+        cardElement.setAttribute("images/back.png");
+};
 
 
 
